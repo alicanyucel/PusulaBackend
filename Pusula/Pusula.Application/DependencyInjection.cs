@@ -19,6 +19,7 @@ namespace Pusula.Application
             services.AddValidatorsFromAssembly(typeof(DependencyInjection).Assembly);
 
             return services;
+            // pusula backend 
         }
     }
 }
